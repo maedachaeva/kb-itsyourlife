@@ -1,0 +1,85 @@
+<!-- id 선택자 -->
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>selector_id</title>
+        <style>
+            #header {
+                margin: 0 auto;
+                background-color: red;
+            }
+            #wrap {
+                display: flex;
+            }
+            #aside {
+                background-color: blue;
+                float: left;
+            }
+            #content {
+                background-color: green;
+                flex: 1;
+            }
+        </style>
+
+        <!-- 픽셀 지정한 거 -->
+        <!-- <style>
+            #header {
+                background-color: red;
+                width: 1000px;
+            }
+            #wrap {
+                display: flex;
+                width: 1000px;
+            }
+            #aside {
+                background-color: blue;
+                width: 200px;
+            }
+            #content {
+                background-color: green;
+                width: 800px;
+            }
+        </style> -->
+
+        <!-- 강사님 답 -->
+        <!-- <style>
+            #header {
+                width: 800px;
+                margin: 0 auto;
+                background: red;
+            }
+            #wrap {
+                width: 800px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #aside {
+                width: 200px;
+                float: left;
+                background: blue;
+            }
+
+            #content {
+                width: 600px;
+                float: left;
+                background: green;
+            }
+        </style> -->
+    </head>
+    <body>
+        <div id="header">
+            <h1>#header 태그</h1>
+        </div>
+        <div id="wrap">
+            <div id="aside">
+                <h1>#aside 태그</h1>
+            </div>
+            <div id="content">
+                <h1>#content태그</h1>
+            </div>
+        </div>
+    </body>
+</html>
