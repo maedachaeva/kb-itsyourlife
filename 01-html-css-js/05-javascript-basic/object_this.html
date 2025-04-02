@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>object_this</title>
+        <script>
+            let person = {
+                name: '유인성',
+                // 메서드
+                eat: function (food) {
+                    alert(this.name + '이 ' + food + '을/를 먹습니다.');
+                },
+            };
+
+            person.eat('밥');
+        </script>
+    </head>
+    <body>
+        <!-- 자바스크립트에서 함수를 정의하는 방법
+
+        1. 함수 선언식 (Function Declaration) 
+            // function sayHello(name) {
+            //   console.log(name + '님 안녕하세요!');
+            // };
+            ✅ 가장 기본적, 호이스팅됨 (선언보다 위에서도 호출 가능)
+
+        2. 함수 표현식
+            // const sayHello = function (name) {
+            //   console.log(name + '님 안녕하세요!');
+            // };
+            ✅ 변수에 함수를 값처럼 할당, 콜백이나 매개변수 전달할 때 사용
+
+        3. 화살표 함수
+            // const sayHello = (name) => {
+            //   console.log(name + '님 안녕하세요!');
+            // };
+            ✅ this가 다르게 작동 (객체에서 메서드로는 부적합)
+
+        4. 객체 메서드
+            // const person = {
+            //   name: '유인성',
+            //   sayHello: function () {
+            //     console.log(this.name + '님 안녕하세요!');
+            //   },
+            // };
+            ✅ 객체 안에 함수를 넣는 함수 "메서드"
+        -->
+    </body>
+</html>
