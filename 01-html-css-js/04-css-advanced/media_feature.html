@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>media_feature</title>
+        <style>
+            /* 
+            * 자주 쓰는 반응형 기준
+            
+            * 모바일: ~767px
+            * 태블릿: 768px ~ 959px
+            * 데스크톱: 960px 이상
+            * 대형 데스크톱: 1200px 이상
+            */
+
+            @media screen and (max-width: 767px) {
+                body {
+                    background-color: rgb(177, 56, 56);
+                }
+            }
+            @media screen and (min-width: 768px) and (max-width: 959px) {
+                body {
+                    background-color: rgb(29, 99, 47);
+                }
+            }
+            @media screen and (min-width: 960px) {
+                body {
+                    background-color: rgb(34, 76, 140);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lorem ipsum, dolor sit amet</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit aut
+            sint dolores, soluta quia eos a laudantium. Esse veniam expedita
+            accusantium quo labore modi atque enim voluptatum earum. Doloremque,
+            molestiae.
+        </p>
+    </body>
+</html>

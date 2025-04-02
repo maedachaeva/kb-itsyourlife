@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>pattern1</title>
+        <style>
+            /* 답안에는 이거랑 */
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                width: 960px;
+                /* 이거 추가 - 아마 위치 조절용 */
+                /* *width 답안대로 수정함 */
+                margin: 0 auto;
+                overflow: hidden;
+
+                /* display: flex; */
+            }
+            #menu {
+                width: 260px;
+                float: left;
+            }
+            #section {
+                width: 700px;
+                float: left;
+            }
+            li {
+                list-style: none;
+            }
+
+            @media screen and (max-width: 767px) {
+                /* 웹으로 만들고 스마트폰일 때 해제해 준다고 함 */
+                body {
+                    width: auto;
+
+                    /* flex-direction: column; */
+                }
+                #menu {
+                    width: auto;
+                    float: none;
+                }
+                #section {
+                    width: auto;
+                    float: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li>메뉴A</li>
+                <li>메뉴B</li>
+                <li>메뉴C</li>
+            </ul>
+        </div>
+        <div id="section">
+            <h1>Lorem ipsum</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                viverra ex a augue porta, quis luctus eros sollicitudin. Null am
+                in turpis semper, lacinia justo a, facilisis lacus. Nunc odio
+                nisi, lobortis sit amet diam et, vestibulum posuere risus. Donec
+                viv erra, risus a ultricies fringilla, lectus purus aliquet
+                quam, sit amet commodo nisl mi vitae nunc. Nulla cursus non urna
+                eu elementu m. Integer at mi auctor mi suscipit dapibus nec non
+                orci. Sed at libero non augue ultricies euismod a non erat. Nunc
+                ipsum nulla, scelerisque id enim nec, lobortis ornare leo.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Cras suscipit egesta s felis, vitae bibendum mi ullamcorper at.
+                Integer scelerisque cursus nunc, ultricies tincidunt ante tempus
+                ut. Nam id convallis jus to...
+            </p>
+        </div>
+    </body>
+</html>
