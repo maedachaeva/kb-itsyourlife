@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>oneTrueLayout</title>
+        <style>
+            body {
+                width: 600px;
+            }
+            #top {
+                background-color: green;
+            }
+            #middle {
+                overflow: hidden;
+
+                /* float로 할 경우 */
+                /* position: relative;
+                height: 78px; */
+            }
+            #left {
+                background-color: red;
+                width: 150px;
+                float: left;
+
+                /* float로 할 경우 */
+                /* position: absolute;
+                top: 0;
+                left: 0; */
+            }
+            #right {
+                background-color: blue;
+                float: left;
+                width: 450px;
+
+                /* float로 할 경우 */
+                /* position: absolute;
+                top: 0;
+                right: 0; */
+            }
+            #bottom {
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
+            urna vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida
+            non augue vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida
+            egestas faucibus.
+        </div>
+        <div id="middle">
+            <div id="left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div id="right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
+                urna vitae dolor pulvinar facilisis eget ac risus. Phasellus
+                gravida non augue vitae rutrum. Ut vitae ligula lorem.
+                Suspendisse gravida egestas faucibus.
+            </div>
+        </div>
+        <div id="bottom">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
+            urna vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida
+            non augue vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida
+            egestas faucibus.
+        </div>
+    </body>
+</html>
