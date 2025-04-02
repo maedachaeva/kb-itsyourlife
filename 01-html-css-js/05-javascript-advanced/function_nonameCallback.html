@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>function_callback</title>
+        <script>
+            function callBack(func, count) {
+                for (let i = 0; i < count; i++) {
+                    func();
+                }
+            }
+
+            // 익명 함수 콜백 전달 방식
+            callBack(function () {
+                alert('함수 호출');
+            }, 3);
+        </script>
+    </head>
+    <body>
+        <!-- 
+        - 함수도 값처럼 전달할 수 있다 
+        - 다른 함수의 매개변수로 함수(콜백)를 넘길 수 있다
+        -->
+    </body>
+</html>
