@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Basic</title>
+        <script>
+            window.onload = function () {
+                let text = ''; //빈 문자열
+                for (let i = 0; i < 10; i++) {
+                    text += '<h1>Header -' + i + '</h1>';
+                }
+                // document.body.textContent = text;
+                document.body.innerHTML = text;
+            };
+        </script>
+    </head>
+    <body></body>
+</html>
