@@ -43,7 +43,7 @@
 | 02 조건문과 반복문, 참조타입        | `java_02_basic`     | `java_02_advanced`  | ✅   | ✅   |
 | 03 클래스                          | `java_03_basic`     | `java_03_advanced`  | ✅   | ✅   |
 | 04 상속                           | `java_04_basic`     | `java_04_advanced`  | ✅   | ✅   |
-| 05 인터페이스                     | `java_05_basic`     | `java_05_advanced`  | ✅   | ⬜️   |
+| 05 인터페이스                     | `java_05_basic`     | `java_05_advanced`  | ✅   | ✅   |
 | 06 중첩 객체                      | `java_06_basic`     | `java_06_advanced`  | ⬜️   | ⬜️   |
 | 07 예외처리, 라이브러리            | `java_07_basic`     | `java_07_advanced`  | ✅   | ⬜️   |
 | 08 멀티스레드                     | `java_08_basic`     | `java_08_advanced`  | ✅   | ⬜️   |
