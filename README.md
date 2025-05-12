@@ -48,7 +48,7 @@
 | 07 예외처리, 라이브러리            | `java_07_basic`     | `java_07_advanced`  | ✅   | ✅   |
 | 08 멀티스레드                     | `java_08_basic`     | `java_08_advanced`  | ✅   | ✅   |
 | 09 제네릭, 컬렉션                 | `java_09_basic`     | `java_09_advanced`  | ✅   | ✅   |
-| 10 컬렉션                         | `java_10_basic`     | `java_10_advanced`  | ✅   | ⬜️   |
+| 10 컬렉션                         | `java_10_basic`     | `java_10_advanced`  | ✅   | ✅   |
 | 11 람다식                         | `java_11_basic`     | `java_11_advanced`  | ✅   | ⬜️   |
 | 12 스트림 요소 처리               | `java_12_basic`     | `java_12_advanced`  | ✅   | ⬜️   |
 | 13 데이터 입출력                  | `java_13_basic`     | `java_13_advanced`  | ✅   | ⬜️   |
