@@ -51,6 +51,6 @@
 | 10 컬렉션                         | `java_10_basic`     | `java_10_advanced`  | ✅   | ⬜️   |
 | 11 람다식                         | `java_11_basic`     | `java_11_advanced`  | ✅   | ⬜️   |
 | 12 스트림 요소 처리               | `java_12_basic`     | `java_12_advanced`  | ✅   | ⬜️   |
-| 13 데이터 입출력                  | `java_13_basic`     | `java_13_advanced`  | ⬜️   | ⬜️   |
+| 13 데이터 입출력                  | `java_13_basic`     | `java_13_advanced`  | ✅   | ⬜️   |
 
 
