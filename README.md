@@ -63,7 +63,7 @@
 | 01 서블릿 기초 | 01_jsp(basic) | 01_jsp(advanced) | ✅ | ⬜ |
 | 02 JSP의 이해 | 02_jsp(basic) | 02_jsp(advanced) | ⬜ | ⬜ |
 | 03 서블릿 심화 | 03_jsp(basic) | 03_jsp(advanced) | ✅ | ⬜ |
-| 04 요청 포워딩, EL, JSTL | 04_jsp(basic) | 04_jsp(advanced) | ⬜ | ⬜ |
+| 04 요청 포워딩, EL, JSTL | 04_jsp(basic) | 04_jsp(advanced) | ✅ | ⬜ |
 | 05 FrontController | 05_jsp(basic) | 05_jsp(advanced) | ⬜ | ⬜ |
 
 ### 📁 04-spring-framework
