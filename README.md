@@ -71,9 +71,9 @@
 | 항목 | 기본 디렉터리 | 심화 디렉터리 | 기본 | 심화 |
 |------|:------------------------------:|:-------------------------------:|:------:|:------:|
 | 01 Spring 이해 | 01_spring(basic) | 01_spring(advanced) | ✅ | ⬜ |
-| 02 Spring MVC | 02_spring(basic) | 02_spring(advanced) | ⬜ | ⬜ |
+| 02 Spring MVC | 02_spring(basic) | 02_spring(advanced) | ✅ | ⬜ |
 | 03 Spring-MyBatis 연동 | 03_spring(basic) | 03_spring(advanced) | ⬜ | ⬜ |
-| 04 Spring 기본 게시판 | 04_spring(basic) | 04_spring(advanced) | ⬜ | ⬜ |
+| 04 Spring 기본 게시판 | 04_spring(basic) | 04_spring(advanced) | ✅ | ⬜ |
 | 05 게시판 + 파일 업로드 | 05_spring(basic) | 05_spring(advanced) | ⬜ | ⬜ |
 | 06 Rest | 06_spring(basic) | 06_spring(advanced) | ⬜ | ⬜ |
 | 07 OpenAPI | 07_spring(basic) | 07_spring(advanced) | ⬜ | ⬜ |
