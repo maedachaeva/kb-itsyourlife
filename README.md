@@ -80,4 +80,4 @@
 | 08 Spring AOP | 08_spring(basic) | 08_spring(advanced) | ⬜ | ⬜ |
 | 09 Spring Security Form 인증 | 09_spring(basic) | 09_spring(advanced) | ✅ | ⬜ |
 | 10 Spring Security JWT 인증 | 10_spring(basic) | 10_spring(advanced) | ⬜ | ⬜ |
-| 11 Spring Security JWT 인증2 | 11_spring(basic) | 11_spring(advanced) | ⬜ | ⬜ |
+| 11 Spring Security JWT 인증2 | 11_spring(basic) | 11_spring(advanced) | ✅ | ⬜ |
