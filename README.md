@@ -77,7 +77,7 @@
 | 05 게시판 + 파일 업로드 | 05_spring(basic) | 05_spring(advanced) | ✅ | ⬜ |
 | 06 Rest | 06_spring(basic) | 06_spring(advanced) | ✅ | ⬜ |
 | 07 OpenAPI | 07_spring(basic) | 07_spring(advanced) | ⬜ | ⬜ |
-| 08 Spring AOP | 08_spring(basic) | 08_spring(advanced) | ⬜ | ⬜ |
+| 08 Spring AOP | 08_spring(basic) | 08_spring(advanced) | ✅ | ⬜ |
 | 09 Spring Security Form 인증 | 09_spring(basic) | 09_spring(advanced) | ✅ | ⬜ |
 | 10 Spring Security JWT 인증 | 10_spring(basic) | 10_spring(advanced) | ⬜ | ⬜ |
 | 11 Spring Security JWT 인증2 | 11_spring(basic) | 11_spring(advanced) | ✅ | ⬜ |
